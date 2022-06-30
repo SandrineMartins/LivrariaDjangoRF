@@ -141,7 +141,7 @@ django_heroku.settings(locals())
 
 AWS_ACCESS_KEY_ID= "AKIA3QOQCX52SO6QDCDI"
 AWS_SECRET_ACCESS_KEY= "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"
-AWS_STORAGE_BUCKET_NAME= "livrariadjango"
+AWS_STORAGE_BUCKET_NAME= "djangolivraria"
 
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None

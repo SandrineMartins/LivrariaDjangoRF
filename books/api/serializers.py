@@ -1,7 +1,8 @@
+import imp
 from rest_framework import serializers
-from books import models
+from .models import Books
 
 class BooksSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.Books
+        model = Books
         fields = '__all__'
